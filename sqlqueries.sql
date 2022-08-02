@@ -32,7 +32,7 @@ WHERE emp_id = 4;
 SELECT * FROM employees    -- IN operator is used to specify multiple values/conditions
 WHERE emp_id IN (4, 6, 11);
 
--- AND, OR, NOT Operators
+-- AND, OR, NOT Operators.
 
 SELECT * FROM locations
 WHERE city = 'mumbai' AND postal_code = 400002;
